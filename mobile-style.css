@@ -1,0 +1,52 @@
+@media only screen and (max-width:768px) {
+  .navbar-brand{
+    padding-left:1rem;
+  }
+
+.panel-text-left{
+  position:initial;
+  width: initial;
+  height: initial;
+}
+
+.cover {
+  background-position: -25vmin -10vmin;
+}
+
+.rect{
+  width: 10rem;
+  height: 8rem;
+}
+
+.rect h1 {
+  font-size: 2rem;
+
+}
+
+.section-3 {
+  height: inherit;
+  padding: 10vmin !important;
+}
+
+.section-3 h1{
+  padding: 6vmin 4vmin;
+}
+
+.section-3.col-md-6{
+  text-align: center !important;
+}
+
+.section-3.desktop i{
+  font-size: 8vmin;
+}
+
+}
+
+@media only screen and (max-width:425px)
+
+{
+  footer.col-md-2{
+    margin-top: 8vmin;
+  }
+
+}
