@@ -1,0 +1,19 @@
+@media only screen and (max-width:768px) {
+  .navbar-brand{
+    padding-left:1rem;
+  }
+
+.panel-text-left{
+  position:initial;
+  width: initial;
+  height: initial;
+}
+
+@media only screen and (max-width:425px)
+
+{
+  footer.col-md-2{
+    margin-top: 8vmin;
+  }
+
+}

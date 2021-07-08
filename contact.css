@@ -1,0 +1,133 @@
+/*GoogleFont*/
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+header. section {
+  overflow-x: hiden;
+}
+
+:root {
+  --Snigle-font: "Snigle", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "PatuaOne", cursive;
+  --Lobster: "Lobster", cursive;
+  --Light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0);
+}
+
+header a {
+  font-family: var(--Snigle-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header {
+  background: #dd2476;
+  background: black;
+}
+
+.dropdown:hover dropdown-content {
+  display: block;
+}
+li.na-item:hover {
+  color: white;
+}
+li.nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+li.nav-item {
+  padding: 0.9em;
+}
+
+a.navbar-brand {
+  padding-left: 8rem;
+}
+
+a.nav-link:hover {
+  color: white;
+}
+
+
+
+.section-1 {
+  padding: 12vmin 0;
+}
+
+.pray img {
+  width: 80%;
+  position:relative; 
+  top:-7vmin;
+  left: -2.5vmin;
+
+}
+
+
+.col-md-6:last-child {
+  position: relative;
+}
+
+
+.panel-text-left {
+  position: absolute;
+  width: 100%;
+  top: -7vmin;
+  left: -16vmin;
+  border-style: solid 1px ;
+  background: rgb(0, 0, 0);
+  text-align: left;
+  padding: 6vmin 5vmin 7vmin 6vmin;
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.panel-text-left > h2 {
+  color: aliceblue;
+}
+
+.panel-text-left > form {
+  color: aliceblue;
+}
+
+.text {
+  width: 200px;
+  display: inline-block;
+  color: red;
+}
+
+/*footer*/
+
+footer {
+  background: black;
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+.input-group-text {
+  background: var(--bggradient);
+  border: none;
+  height: 100%;
+}
+
+.column {
+  color: #dd2476;
+}
+
+.column i + i {
+  padding: 0 0.5em;
+}
